@@ -150,13 +150,9 @@ python Explainable\(XAI\)_SHAP_LIME.py
 
     Nota: I programmi installeranno automaticamente tutte le librerie necessarie. Per MLOps è richiesto Docker.
 
+
 📬 Contatti
 
 Massimo Vianello
 📧 max.vianello69@libero.it
-<<<<<<< HEAD
 📱 347 000 6339
-=======
-📱 347 000 6339
-
->>>>>>> ac11a9504e96a9a3d8aff4b9adeb4cdf3d6e7430
