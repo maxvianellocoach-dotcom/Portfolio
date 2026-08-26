@@ -4,9 +4,7 @@
 
 ## 📌 Chi Sono
 
-Professionista con **30 anni di esperienza** in ruoli di responsabilità (qualità, sicurezza, gestione) e una recente **specializzazione in Intelligenza Artificiale e Machine Learning**. Ho sviluppato questo portfolio di **5 progetti ML completi** per dimostrare competenze pratiche in tutto lo stack: dati, modelli, produzione e explainability.
-
-**Disponibilità:** Abito a Favaro Veneto (VE), a pochi km da Spresiano. Disponibile per 3 giorni in presenza e 2 in remoto.
+Professionista con **30 anni di esperienza** in ruoli di responsabilità (qualità, sicurezza, gestione), consulente aziendale, e una recente **specializzazione in Intelligenza Artificiale e Machine Learning**. Ho sviluppato questo portfolio di **5 progetti ML completi** per dimostrare competenze pratiche in tutto lo stack: dati, modelli, produzione e explainability.
 
 ---
 
