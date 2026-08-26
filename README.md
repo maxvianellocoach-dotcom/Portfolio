@@ -6,6 +6,7 @@
 
 Professionista con **30 anni di esperienza** in ruoli di responsabilità (qualità, sicurezza, gestione), consulente aziendale, e una recente **specializzazione in Intelligenza Artificiale e Machine Learning**. Ho sviluppato questo portfolio di **5 progetti ML completi** per dimostrare competenze pratiche in tutto lo stack: dati, modelli, produzione e explainability.
 
+<<<<<<< HEAD
 ---
 
 ## 🗂️ Progetti Inclusi
@@ -14,6 +15,17 @@ Professionista con **30 anni di esperienza** in ruoli di responsabilità (qualit
 
 **Obiettivo:** Classificare testi clinici come "richiede attenzione" (1) o "stabile" (0) usando BERT fine-tuned.
 
+=======
+
+---
+
+## 🗂️ Progetti Inclusi
+
+### 1. NLP Classifier (BERT) – [`NLP_Classifier_Module_BERT.py`](NLP_Classifier_Module_BERT.py)
+
+**Obiettivo:** Classificare testi clinici come "richiede attenzione" (1) o "stabile" (0) usando BERT fine-tuned.
+
+>>>>>>> ac11a9504e96a9a3d8aff4b9adeb4cdf3d6e7430
 **Tecnologie:** PyTorch, HuggingFace Transformers, Scikit-learn, tqdm
 
 **Output reale del programma:**
@@ -142,4 +154,9 @@ python Explainable\(XAI\)_SHAP_LIME.py
 
 Massimo Vianello
 📧 max.vianello69@libero.it
+<<<<<<< HEAD
 📱 347 000 6339
+=======
+📱 347 000 6339
+
+>>>>>>> ac11a9504e96a9a3d8aff4b9adeb4cdf3d6e7430
