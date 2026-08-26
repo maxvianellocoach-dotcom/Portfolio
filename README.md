@@ -143,31 +143,5 @@ python Explainable\(XAI\)_SHAP_LIME.py
 Massimo Vianello
 📧 max.vianello69@libero.it
 📱 347 000 6339
-📍 Favaro Veneto (VE) – a pochi km da Spresiano
-
-"Costruisco backend ML così solidi che il frontend è solo una questione di wrapping."
-
-Disponibile per un colloquio conoscitivo a vostra discrezione.
-text
 
 
----
-
-## ✅ Checklist Finale
-
-| Cosa | Stato |
-|------|-------|
-| Programmi funzionanti | ✅ Tutti |
-| README completo | ⚠️ **Da aggiornare** (usa quello sopra) |
-| Repository pubblico | ✅ Fatto |
-| Link corretto | `https://github.com/maxvianellococh-dotcom/Portfolio` |
-
----
-
-## 🚀 Ora Sei Pronto!
-
-1. **Sostituisci** il README.md con quello che ti ho fornito.
-2. **Commit** e **push** su GitHub.
-3. **Invia la mail** a Chiron AI con il link del repository.
-
-**Sei pronto. Hai un portfolio eccellente.** 🍀🚀
