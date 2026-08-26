@@ -6,6 +6,7 @@
 
 Professionista con **30 anni di esperienza** in ruoli di responsabilità (qualità, sicurezza, gestione), consulente aziendale, e una recente **specializzazione in Intelligenza Artificiale e Machine Learning**. Ho sviluppato questo portfolio di **5 progetti ML completi** per dimostrare competenze pratiche in tutto lo stack: dati, modelli, produzione e explainability.
 
+
 ---
 
 ## 🗂️ Progetti Inclusi
@@ -32,7 +33,7 @@ text
 
 **Tecnologie:** NumPy, Pandas, Scikit-learn, tqdm
 
-**Output reale del programma:**
+**Output reale:**
 
 Iterazione 30/30 - RMSE: 0.7127
 RMSE su test: 1.0625
@@ -49,7 +50,7 @@ text
 
 **Tecnologie:** PySpark, Pandas
 
-**Output reale del programma:**
+**Output reale:**
 
 📊 Dati originali:
 +---+----------+-----+------+
@@ -80,7 +81,7 @@ text
 
 **Tecnologie:** MLflow, Docker, Flask, Scikit-learn, Joblib
 
-**Output reale del programma:**
+**Output reale:**
 
 Modello RandomForestModel v13 promosso a Staging
 Modello RandomForestModel v13 promosso a Production
@@ -88,6 +89,8 @@ Modello RandomForestModel v13 promosso a Production
 ✅ API test riuscita: {'prediction': 1}
 text
 
+
+**📄 File API:** Il file [`serve.py`](serve.py) contiene il codice Flask che espone il modello come servizio REST.
 
 **Test dell'API:**
 ```bash
@@ -100,7 +103,7 @@ Obiettivo: Explainability di modelli ML (SHAP) e modelli NLP (LIME). Supporta le
 
 Tecnologie: SHAP, LIME, Transformers, Scikit-learn
 
-Output reale del programma:
+Output reale:
 text
 
 ✅ LIME - Spiegazione: [('feature_0 <= 1.39', 0.0), ('feature_1 <= -0.97', 0.0), ...]
@@ -141,5 +144,4 @@ python Explainable\(XAI\)_SHAP_LIME.py
 Massimo Vianello
 📧 max.vianello69@libero.it
 📱 347 000 6339
-
 
