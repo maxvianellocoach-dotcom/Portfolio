@@ -7,20 +7,9 @@
 
 **Obiettivo:** Classificare testi clinici come "richiede attenzione" (1) o "stabile" (0) usando BERT fine-tuned.
 
-=======
-
----
-
-## 🗂️ Progetti Inclusi
-
-### 1. NLP Classifier (BERT) – [`NLP_Classifier_Module_BERT.py`](NLP_Classifier_Module_BERT.py)
-
-**Obiettivo:** Classificare testi clinici come "richiede attenzione" (1) o "stabile" (0) usando BERT fine-tuned.
-
->>>>>>> ac11a9504e96a9a3d8aff4b9adeb4cdf3d6e7430
 **Tecnologie:** PyTorch, HuggingFace Transformers, Scikit-learn, tqdm
 
-**Output reale del programma:**
+**Output reale:**
 
 Epoch 1/2 - Average Loss: 0.6908
 Epoch 2/2 - Average Loss: 0.6890
@@ -78,7 +67,55 @@ text
 
 ---
 
-### 4. MLOps Pipeline – [`MLOpsPipeline_MLflow_Docke.py`](MLOpsPipeline_MLflow_Docke.py)
+### 4. Data Pipeline Orchestrator (PySpark + Airflow Logic) – [`ZPF1_data_pipeline_orchestrator.py`](ZPF1_data_pipeline_orchestrator.py)
+
+**Obiettivo:** Dimostrare una pipeline ETL orchestrata con logica stile Apache Airflow. Gestisce dipendenze tra task, retry automatici e fallback in caso di errori di scrittura.
+
+**Tecnologie:** PySpark, Apache Airflow (concetto), Pandas
+
+**Output reale:**
+
+▶️ Esecuzione task 'etl_daily' (tentativo 1)...
+🚀 Avvio task ETL per la data: 2026-08-27
+📊 Dati grezzi per 2026-08-27:
++---+----------------+------+-----+
+| id|data_riferimento|valore|stato|
++---+----------------+------+-----+
+| 1| 2026-08-27| 10.5| OK|
+| 2| 2026-08-27| 15.2|ERROR|
+| 3| 2026-08-27| 12.1| OK|
++---+----------------+------+-----+
+
+📈 Dati aggregati per 2026-08-27:
++----------------+------------+----------------+
+|data_riferimento|valore_medio|conteggio_record|
++----------------+------------+----------------+
+| 2026-08-27| 11.3| 2|
++----------------+------------+----------------+
+
+✅ Task ETL per 2026-08-27 completato.
+✅ Task 'etl_daily' completato con successo.
+
+▶️ Esecuzione task 'etl_backfill' (tentativo 1)...
+🚀 Avvio task ETL per la data: 2026-08-26
+... (stessa logica) ...
+✅ Task ETL per 2026-08-26 completato.
+✅ Task 'etl_backfill' completato con successo.
+
+📋 Report finale della pipeline:
+
+    etl_daily: success
+
+    etl_backfill: success
+
+text
+
+
+**Nota:** Il programma gestisce il fallimento di scrittura su disco (tipico di Windows) e mostra i dati trasformati come fallback, dimostrando robustezza.
+
+---
+
+### 5. MLOps Pipeline – [`MLOpsPipeline_MLflow_Docke.py`](MLOpsPipeline_MLflow_Docke.py)
 
 **Obiettivo:** Ciclo di vita completo del modello: training, versioning con MLflow, promozione a Staging/Production, e deploy in container Docker con API Flask.
 
@@ -100,7 +137,7 @@ text
 curl -X POST http://localhost:5001/predict -H 'Content-Type: application/json' -d '{"features": [0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]}'
 # Risposta: {"prediction":1}
 
-5. XAI Explainer – Explainable(XAI)_SHAP_LIME.py
+6. XAI Explainer – Explainable(XAI)_SHAP_LIME.py
 
 Obiettivo: Explainability di modelli ML (SHAP) e modelli NLP (LIME). Supporta le ultime versioni delle librerie.
 
@@ -117,6 +154,7 @@ Area	Tecnologie
 Machine Learning	PyTorch, HuggingFace Transformers, Scikit-learn
 Deep Learning	BERT, Fine-tuning, Transformer-based NLP
 Data Engineering	PySpark, Pandas, NumPy
+Orchestrazione	Apache Airflow (concetto), gestione DAG, retry, dipendenze
 MLOps	MLflow (tracking, versioning, registry), Docker, Flask
 Explainable AI	SHAP, LIME
 Linguaggi	Python 3.9+
@@ -134,6 +172,9 @@ python Recommender_System_HuggingFace.py
 # ETL Pipeline (Windows-compatibile)
 python ETL_Pipeline_PySpark.py
 
+# Data Pipeline Orchestrator (PySpark + Airflow Logic)
+python ZPF1_data_pipeline_orchestrator.py
+
 # MLOps Pipeline (richiede Docker)
 python MLOpsPipeline_MLflow_Docke.py
 
@@ -141,7 +182,6 @@ python MLOpsPipeline_MLflow_Docke.py
 python Explainable\(XAI\)_SHAP_LIME.py
 
     Nota: I programmi installeranno automaticamente tutte le librerie necessarie. Per MLOps è richiesto Docker.
-
 
 📬 Contatti
 
