@@ -1,13 +1,5 @@
 🚀 ML Engineer Portfolio – Massimo Vianello
 
-> *"La mia filosofia: costruisco backend ML così solidi che il frontend è solo una questione di wrapping."*
-
-## 📌 Chi Sono
-
-Professionista con **30 anni di esperienza** in ruoli di responsabilità (qualità, sicurezza, gestione), consulente aziendale, e una recente **specializzazione in Intelligenza Artificiale e Machine Learning**. Ho sviluppato questo portfolio di **5 progetti ML completi** per dimostrare competenze pratiche in tutto lo stack: dati, modelli, produzione e explainability.
-
-<<<<<<< HEAD
----
 
 ## 🗂️ Progetti Inclusi
 
